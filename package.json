@@ -1,7 +1,7 @@
 {
   "name": "spaceatom-keybindings",
   "main": "./lib/spaceatom",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Spacemacs-esque keybindings for Atom. Also takes care of install required packages.",
   "keywords": [],
   "repository": "https://github.com/Tehnix/spaceatom-keybindings",
