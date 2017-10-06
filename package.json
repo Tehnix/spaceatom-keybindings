@@ -1,0 +1,23 @@
+{
+  "name": "spaceatom-keybindings",
+  "main": "./lib/spaceatom",
+  "version": "0.1.0",
+  "description": "Spacemacs-esque keybindings for Atom. Also takes care of install required packages.",
+  "keywords": [],
+  "repository": "https://github.com/Tehnix/spaceatom-keybindings",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "4.6.0"
+  },
+  "package-deps": [
+    "vim-mode-plus",
+    "keystroke",
+    "platformio-ide-terminal",
+    "copy-file-contents",
+    "spacemacsdark-syntax",
+    "one-dark-ui"
+  ]
+}

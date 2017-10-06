@@ -1,0 +1,79 @@
+'body':
+  'ctrl-n': 'unset!'
+
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  # Map shift + U to redo, for a more natural feeling.
+  'U': 'core:redo'
+  #'tab': 'unset!'
+  # Emulate vim-multiple-cursors -----
+  'ctrl-n': 'find-and-replace:select-next'
+  'ctrl-p': 'find-and-replace:select-undo'
+  'ctrl-x': 'find-and-replace:select-skip'
+  # Emulate som Spacemacs keybindings -----
+  'space \'': 'term3:open-split-down'
+  'space tab': 'pane:show-previous-recently-used-item'
+  'space 1': 'pane:show-item-1'
+  'space 2': 'pane:show-item-2'
+  'space 3': 'pane:show-item-3'
+  'space 4': 'pane:show-item-4'
+  'space 5': 'pane:show-item-5'
+  'space 6': 'pane:show-item-6'
+  'space 7': 'pane:show-item-7'
+  'space 8': 'pane:show-item-8'
+  'space 9': 'pane:show-item-9'
+  # +files
+  'space f t': 'tree-view:toggle'
+  'space f f': 'fuzzy-finder:toggle-file-finder'
+  'space f F': 'fuzzy-finder:toggle-file-finder'
+  'space f s': 'core:save'
+  'space f S': 'window:save-all'
+  'space f y': 'editor:copy-path'
+  'space f R': 'tree-view:rename'
+  'space f c': 'copy-file-contents:copy'
+  'space f C d': 'line-ending-selector:convert-to-CRLF'
+  'space f C u': 'line-ending-selector:convert-to-LF'
+  'space f e d': 'settings-view:open'
+  'space f e k': 'settings-view:show-keybindings'
+  'space f e t': 'settings-view:change-themes'
+  'space f e p': 'settings-view:view-installed-packages'
+  'space f e i': 'window:toggle-dev-tools'
+  # +compile/comments
+  'space c l': 'editor:toggle-line-comments'
+  'space c y': 'keystroke y y space c l'
+  # +buffers
+  'space b p': 'vim-mode-plus:previous-tab'
+  'space b n': 'vim-mode-plus:next-tab'
+  'space b N': 'application:new-file'
+  'space b m': 'tabs:close-other-tabs'
+  # +narrow/numbers
+  'space n ,': 'core:page-up'
+  'space n .': 'core:page-down'
+  # +search/symbols
+  'space s f': 'find-and-replace:show'
+  'space s F': 'project-find:show'
+  # +UI toggles/themes
+  'space T F': 'window:toggle-full-screen'
+  'space T P': 'markdown-preview:toggle'
+  'space T p': 'command-palette:toggle'
+  'space T t':  'status-bar:toggle'
+  'space T s': 'settings-view:change-themes'
+  # +toggles
+  'space t n': 'editor:toggle-line-numbers'
+  'space t i': 'editor:toggle-indent-guide'
+  'space t I': 'window:toggle-auto-indent'
+  # 'editor:toggle-soft-wrap'
+  # 'editor:toggle-soft-tabs'
+  # +windows
+  'space w h': 'window:focus-pane-on-left'
+  'space w l': 'window:focus-pane-on-right'
+  'space w k': 'window:focus-pane-above'
+  'space w j': 'window:focus-pane-below'
+  'space w s': 'pane:split-down-and-copy-active-item'
+  'space w v': 'pane:split-right-and-copy-active-item'
+  # +text
+  'space x U': 'editor:upper-case'
+  'space x u': 'editor:lower-case'
+  'space x j': 'editor:move-line-down'
+  'space x k': 'editor:move-line-up'
+  'space x J': 'editor:move-line-down'
+  'space x K': 'editor:move-line-up'
