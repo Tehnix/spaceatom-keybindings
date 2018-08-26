@@ -1,20 +1,28 @@
 # Haskell specific bindings (trying to match Spacemacs haskell layer)
 'atom-text-editor.vim-mode-plus:not(.insert-mode)[data-grammar="source haskell"]':
-  # haskell/documentation
+  # +haskell/documentation
+  'space m h': 'spaceatom:+haskell/documentation'
   'space m h h': 'ide-haskell-hoogle:show-web-doc-for-symbol'
   'space m h H': 'ide-haskell-hoogle:show-web-doc-for-symbol'
   'space m h t': 'haskell-ghc-mod:show-type'
   'space m h i': 'haskell-ghc-mod:show-type-and-info'
   'space m h T': 'haskell-ghc-mod:insert-type'
   'space m h I': 'haskell-ghc-mod:show-info'
-  # haskell/navigation
+
+  # +haskell/navigation
+  'space m g': 'spaceatom:+haskell/navigation'
   'space m g g': 'haskell-ghc-mod:go-to-declaration' # or 'ide-haskell-hasktags:go-to-declaration'
   'space m g b': 'ide-haskell-hasktags:go-back'
   'space m g t': 'ide-haskell-hasktags:show-tags'
   'space m g f': 'ide-haskell-hasktags:show-file-tags'
-  # haskell/repl
+
+  # +haskell/repl
+  'space m s': 'spaceatom:+haskell/repl'
   'space m s b': 'ide-haskell-repl:toggle'
-  # haskell/refactor
+  'space m s s': 'ide-haskell-repl:toggle'
+
+  # +haskell/refactor
+  'space m r': 'spaceatom:+haskell/refactor'
   'space m r s': 'haskell-ghc-mod:sig-fill'
   'space m r i': 'haskell-ghc-mod:insert-import'
   'space m r c': 'haskell-ghc-mod:case-split'

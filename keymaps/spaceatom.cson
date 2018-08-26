@@ -5,11 +5,11 @@
   # Map shift + U to redo, for a more natural feeling.
   'U': 'core:redo'
   #'tab': 'unset!'
-  # Emulate vim-multiple-cursors -----
+  # Emulate vim-multiple-cursors
   'ctrl-n': 'find-and-replace:select-next'
   'ctrl-p': 'find-and-replace:select-undo'
   'ctrl-x': 'find-and-replace:select-skip'
-  # Emulate som Spacemacs keybindings -----
+  # Emulate som Spacemacs keybindings
   'space \'': 'platformio-ide-terminal:new'
   'space tab': 'pane:show-previous-recently-used-item'
   'space 1': 'pane:show-item-1'
@@ -22,6 +22,7 @@
   'space 8': 'pane:show-item-8'
   'space 9': 'pane:show-item-9'
   # +files
+  'space f': 'spaceatom:+files'
   'space f t': 'tree-view:toggle'
   'space f f': 'fuzzy-finder:toggle-file-finder'
   'space f F': 'fuzzy-finder:toggle-file-finder'
@@ -38,32 +39,39 @@
   'space f e p': 'settings-view:view-installed-packages'
   'space f e i': 'window:toggle-dev-tools'
   # +compile/comments
+  'space c': 'spaceatom:+compile/comments'
   'space c l': 'editor:toggle-line-comments'
   'space c y': 'keystroke y y space c l'
   # +buffers
+  'space b': 'spaceatom:+buffers'
   'space b p': 'vim-mode-plus:previous-tab'
   'space b n': 'vim-mode-plus:next-tab'
   'space b N': 'application:new-file'
   'space b m': 'tabs:close-other-tabs'
   # +narrow/numbers
+  'space n': 'spaceatom:+narrow/numbers'
   'space n ,': 'core:page-up'
   'space n .': 'core:page-down'
   # +search/symbols
+  'space s': 'spaceatom:+search/symbols'
   'space s f': 'find-and-replace:show'
   'space s F': 'project-find:show'
   # +UI toggles/themes
+  'space T': 'spaceatom:+toggles/themes'
   'space T F': 'window:toggle-full-screen'
   'space T P': 'markdown-preview:toggle'
   'space T p': 'command-palette:toggle'
   'space T t':  'status-bar:toggle'
   'space T s': 'settings-view:change-themes'
   # +toggles
+  'space t': 'spaceatom:+toggles'
   'space t n': 'editor:toggle-line-numbers'
   'space t i': 'editor:toggle-indent-guide'
   'space t I': 'window:toggle-auto-indent'
   # 'editor:toggle-soft-wrap'
   # 'editor:toggle-soft-tabs'
   # +windows
+  'space w': 'spaceatom:+windows'
   'space w h': 'window:focus-pane-on-left'
   'space w l': 'window:focus-pane-on-right'
   'space w k': 'window:focus-pane-above'
@@ -80,6 +88,7 @@
   'space w 8': 'pane:show-item-8'
   'space w 9': 'pane:show-item-9'
   # +text
+  'space x': 'spaceatom:+text'
   'space x U': 'editor:upper-case'
   'space x u': 'editor:lower-case'
   'space x j': 'editor:move-line-down'
